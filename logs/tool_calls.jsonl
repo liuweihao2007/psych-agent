@@ -1,0 +1,11 @@
+{"tool": "save_mood", "args": {"mood": "焦虑", "score": 7, "user_id": "u1"}, "result": "已保存：焦虑，强度7分", "status": "success", "latency_ms": 116}
+{"tool": "query_mood", "args": {"user_id": "u1"}, "result": "2026-10-15 12:39:04: 焦虑 7分 \n2026-10-15 12:25:48: 焦虑 7分 睡不着", "status": "success", "latency_ms": 0}
+{"tool": "save_mood", "args": {"mood": "焦虑", "score": 7, "user_id": "u1"}, "result": "已保存：焦虑，强度7分", "status": "success", "latency_ms": 188}
+{"tool": "save_mood", "args": {"mood": "焦虑", "score": 7, "user_id": "u1"}, "result": "已保存：焦虑，强度7分", "status": "success", "latency_ms": 226}
+{"tool": "query_mood", "args": {"user_id": "u1"}, "result": "2026-10-21 08:26:01: 焦虑 7分 \n2026-10-21 08:22:02: 焦虑 7分 \n2026-10-15 12:39:04: 焦虑 7分 \n2026-10-15 12:25:48: 焦虑 7分 睡不着", "status": "success", "latency_ms": 1}
+{"tool": "save_mood", "args": {"mood": "焦虑", "score": 8, "user_id": "u1"}, "result": "已保存：焦虑，强度8分", "status": "success", "latency_ms": 151}
+{"tool": "query_mood", "args": {"user_id": "u1"}, "result": "2026-10-24 08:01:11: 焦虑 8分 \n2026-10-21 08:26:01: 焦虑 7分 \n2026-10-21 08:22:02: 焦虑 7分 \n2026-10-15 12:39:04: 焦虑 7分 \n2026-10-15 12:25:48: 焦虑 7分 睡不着", "status": "success", "latency_ms": 0}
+{"tool": "save_plan", "args": {"title": "7天睡眠改善计划", "steps": "第一天：早睡，晚上10点上床，进行深呼吸练习；\n第二天：早睡，晚上10点上床，进行冥想；\n第三天：早睡，晚上10点上床，进行冥想；\n第四天：早睡，晚上10点上床，进行冥想；\n第五天：早睡，晚上10点上床，进行冥想；\n第六天：早睡，晚上10点上床，进行冥想；\n第七天：早睡，晚上10点上床，进行冥想。", "user_id": "u1"}, "result": "已保存计划：7天睡眠改善计划", "status": "success", "latency_ms": 147}
+{"tool": "get_plans", "args": {"user_id": "u1"}, "result": "ID2: 7天睡眠改善计划 - 第一天：早睡，晚上10点上床，进行深呼吸练习；\n第二天：早睡，晚上10点上床，进行冥想；\n第三天：早睡，晚上10点上床，进行冥想；\n第四天：早睡，晚上10点上床，进行冥想；\n第五天：早睡，晚上10点上床，进行冥想；\n第六天：早睡，晚上10点上床，进行冥想；\n第七天：早睡，晚上10点上床，进行冥想。 (active)\nID1: 睡眠计划 - 1.早睡;2.冥想;3.不", "status": "success", "latency_ms": 0}
+{"tool": "update_plan", "args": {"new_steps": "早睡、冥想、睡前不玩手机", "plan_id": 1}, "result": "计划 1 已更新", "status": "success", "latency_ms": 153}
+{"tool": "save_mood", "args": {"mood": "今天的心情", "score": 5, "user_id": "u1"}, "result": "已保存：今天的心情，强度5分", "status": "success", "latency_ms": 145}
